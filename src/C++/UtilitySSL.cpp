@@ -95,6 +95,8 @@
 
 #ifdef _MSC_VER
 #include "stdafx.h"
+#define strncasecmp _strnicmp
+#define strcasecmp _stricmp
 #else
 #include "config.h"
 #endif
@@ -112,6 +114,7 @@
 #include "openssl/bio.h" // BIO objects for I/O
 #include "openssl/err.h" // Error reporting
 #include "openssl/crypto.h"
+#include "openssl/ossl_typ.h"
 #include "openssl/rand.h"
 
 namespace FIX {
@@ -142,7 +145,7 @@ void ssl_init() {
   if (ssl_initialized)
     return;
 
-  CRYPTO_malloc_init();     // Initialize malloc, free, etc for OpenSSL's use
+  OPENSSL_malloc_init();     // Initialize malloc, free, etc for OpenSSL's use
   SSL_library_init();       // Initialize OpenSSL's SSL libraries
   SSL_load_error_strings(); // Load SSL error strings
   ERR_load_BIO_strings();   // Load BIO error strings
@@ -315,17 +318,19 @@ int caListX509NameCmp(const X509_NAME *const *a, const X509_NAME *const *b) {
 
 int lookupX509Store(X509_STORE *pStore, int nType, X509_NAME *pName,
                     X509_OBJECT *pObj) {
-  X509_STORE_CTX pStoreCtx;
+  X509_STORE_CTX *pStoreCtx = X509_STORE_CTX_new();;
   int rc;
 
-  X509_STORE_CTX_init(&pStoreCtx, pStore, 0, 0);
-  rc = X509_STORE_get_by_subject(&pStoreCtx, nType, pName, pObj);
-  X509_STORE_CTX_cleanup(&pStoreCtx);
+  X509_STORE_CTX_init(pStoreCtx, pStore, 0, 0);
+  rc = X509_STORE_get_by_subject(pStoreCtx, (X509_LOOKUP_TYPE)nType, pName, pObj);
+  X509_STORE_CTX_cleanup(pStoreCtx);
+  X509_STORE_CTX_free(pStoreCtx);
   return rc;
 }
 
 int callbackVerifyCRL(int ok, X509_STORE_CTX *ctx, X509_STORE *revStore) {
-  X509_OBJECT obj;
+/*
+  X509_OBJECT *obj;
   X509_NAME *subject;
   X509_NAME *issuer;
   X509 *xs;
@@ -340,20 +345,20 @@ int callbackVerifyCRL(int ok, X509_STORE_CTX *ctx, X509_STORE *revStore) {
   if (revStore == 0)
     return ok;
 
-  /*
-   * Determine certificate ingredients in advance
-   */
+  //
+  // Determine certificate ingredients in advance
+  ///
   xs = X509_STORE_CTX_get_current_cert(ctx);
   subject = X509_get_subject_name(xs);
   issuer = X509_get_issuer_name(xs);
 
-  /*
-   * Try to retrieve a CRL corresponding to the _subject_ of
-   * the current certificate in order to verify it's integrity.
-   */
-  memset((char *)&obj, 0, sizeof(obj));
-  rc = lookupX509Store(revStore, X509_LU_CRL, subject, &obj);
-  crl = obj.data.crl;
+  //
+  // Try to retrieve a CRL corresponding to the _subject_ of
+  // the current certificate in order to verify it's integrity.
+  ///
+  //memset((char *)&obj, 0, sizeof(obj));
+  rc = lookupX509Store(revStore, X509_LU_CRL, subject, obj);
+  crl = (*obj)->data.crl;
   if (rc > 0 && crl != 0) {
     bio = BIO_new(BIO_s_mem());
     BIO_printf(bio, "lastUpdate: ");
@@ -370,47 +375,47 @@ int callbackVerifyCRL(int ok, X509_STORE_CTX *ctx, X509_STORE *revStore) {
     free(cp2);
     free(cp);
 
-    /*
-     * Verify the signature on this CRL
-     */
+    //
+    // Verify the signature on this CRL
+    ///
     if (X509_CRL_verify(crl, X509_get_pubkey(xs)) <= 0) {
       printf("Invalid signature on CRL\n");
       X509_STORE_CTX_set_error(ctx, X509_V_ERR_CRL_SIGNATURE_FAILURE);
-      X509_OBJECT_free_contents(&obj);
+      X509_OBJECT_free_contents(obj);
       return 0;
     }
 
-    /*
-     * Check date of CRL to make sure it's not expired
-     */
+    //
+    // Check date of CRL to make sure it's not expired
+    ///
     i = X509_cmp_current_time(X509_CRL_get_nextUpdate(crl));
     if (i == 0) {
       printf("Found CRL has invalid nextUpdate field\n");
       X509_STORE_CTX_set_error(ctx, X509_V_ERR_ERROR_IN_CRL_NEXT_UPDATE_FIELD);
-      X509_OBJECT_free_contents(&obj);
+      X509_OBJECT_free_contents(obj);
       return 0;
     }
     if (i < 0) {
       printf("Found CRL is expired - revoking all certificates until you get "
              "updated CRL\n");
       X509_STORE_CTX_set_error(ctx, X509_V_ERR_CRL_HAS_EXPIRED);
-      X509_OBJECT_free_contents(&obj);
+      X509_OBJECT_free_contents(obj);
       return false;
     }
-    X509_OBJECT_free_contents(&obj);
+    X509_OBJECT_free_contents(obj);
   }
 
-  /*
-   * Try to retrieve a CRL corresponding to the _issuer_ of
-   * the current certificate in order to check for revocation.
-   */
-  memset((char *)&obj, 0, sizeof(obj));
-  rc = lookupX509Store(revStore, X509_LU_CRL, issuer, &obj);
-  crl = obj.data.crl;
+  //
+  // Try to retrieve a CRL corresponding to the _issuer_ of
+  // the current certificate in order to check for revocation.
+  ///
+  //memset((char *)&obj, 0, sizeof(obj));
+  rc = lookupX509Store(revStore, X509_LU_CRL, issuer, obj);
+  crl = (*obj)->data.crl;
   if (rc > 0 && crl != NULL) {
-    /*
-     * Check if the current certificate is revoked by this CRL
-     */
+    //
+    // Check if the current certificate is revoked by this CRL
+    ///
     n = sk_X509_REVOKED_num(X509_CRL_get_REVOKED(crl));
     for (i = 0; i < n; i++) {
       revoked = sk_X509_REVOKED_value(X509_CRL_get_REVOKED(crl), i);
@@ -423,12 +428,13 @@ int callbackVerifyCRL(int ok, X509_STORE_CTX *ctx, X509_STORE *revStore) {
                serial, serial, cp);
         free(cp);
         X509_STORE_CTX_set_error(ctx, X509_V_ERR_CERT_REVOKED);
-        X509_OBJECT_free_contents(&obj);
+        X509_OBJECT_free_contents(obj);
         return 0;
       }
     }
-    X509_OBJECT_free_contents(&obj);
+    X509_OBJECT_free_contents(obj);
   }
+*/
   return ok;
 }
 
@@ -484,7 +490,7 @@ int callbackVerify(int ok, X509_STORE_CTX *ctx) {
 }
 
 int typeofSSLAlgo(X509 *pCert, EVP_PKEY *pKey) {
-
+/*
   int t;
 
   t = SSL_ALGO_UNKNOWN;
@@ -503,6 +509,8 @@ int typeofSSLAlgo(X509 *pCert, EVP_PKEY *pKey) {
     }
   }
   return t;
+*/
+  return SSL_ALGO_RSA;
 }
 
 STACK_OF(X509_NAME) * findCAList(const char *cpCAfile, const char *cpCApath) {

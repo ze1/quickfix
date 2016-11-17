@@ -560,22 +560,10 @@ FIX::FieldBase Message::extractField( const std::string& string, std::string::si
       const std::string& fieldLength = pGroup->getField( lenField );
       soh = valueStart + atol( fieldLength.c_str() );
     }
-    else
+    else if ( isSetField( lenField ) )
     {
-      FIX::FieldMap *lenMap;
-      if ( isHeaderField( lenField ) )
-      {
-          lenMap = &m_header;
-      }
-      else
-      {
-          lenMap = this;
-      }
-      if ( lenMap->isSetField( lenField ) )
-      {
-        const std::string& fieldLength = lenMap->getField( lenField );
-        soh = valueStart + atol( fieldLength.c_str() );
-      }
+      const std::string& fieldLength = getField( lenField );
+      soh = valueStart + atol( fieldLength.c_str() );
     }
   }
 

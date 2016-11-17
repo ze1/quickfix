@@ -391,12 +391,12 @@ tm time_localtime( const time_t* t)
 #endif
 }
 
-bool thread_spawn( THREAD_START_ROUTINE func, void* var, thread_id& thread )
+bool thread_spawn(_beginthreadex_proc_type func, void* var, thread_id& thread )
 {
 #ifdef _MSC_VER
   thread_id result = 0;
   unsigned int id = 0;
-  result = _beginthreadex( NULL, 0, &func, var, 0, &id );
+  result = _beginthreadex( NULL, 0, func, var, 0, &id );
   if ( result == 0 ) return false;
 #else
   thread_id result = 0;
@@ -406,7 +406,7 @@ bool thread_spawn( THREAD_START_ROUTINE func, void* var, thread_id& thread )
   return true;
 }
 
-bool thread_spawn( THREAD_START_ROUTINE func, void* var )
+bool thread_spawn(_beginthreadex_proc_type func, void* var )
 { 
   thread_id thread = 0;
   return thread_spawn( func, var, thread );

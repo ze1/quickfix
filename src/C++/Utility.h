@@ -151,8 +151,8 @@ tm time_gmtime( const time_t* t );
 tm time_localtime( const time_t* t );
 
 #ifdef _MSC_VER
-typedef unsigned int (_stdcall THREAD_START_ROUTINE)(void *);
-#define  THREAD_PROC unsigned int _stdcall
+//typedef unsigned (_stdcall THREAD_START_ROUTINE)(void *);
+#define THREAD_PROC unsigned _stdcall
 #else
 extern "C" { typedef void * (THREAD_START_ROUTINE)(void *); }
 #define THREAD_PROC void *
@@ -164,8 +164,8 @@ typedef unsigned thread_id;
 typedef pthread_t thread_id;
 #endif
 
-bool thread_spawn( THREAD_START_ROUTINE func, void* var, thread_id& thread );
-bool thread_spawn( THREAD_START_ROUTINE func, void* var );
+bool thread_spawn(_beginthreadex_proc_type func, void* var, thread_id& thread );
+bool thread_spawn(_beginthreadex_proc_type func, void* var );
 void thread_join( thread_id thread );
 void thread_detach( thread_id thread );
 thread_id thread_self();
