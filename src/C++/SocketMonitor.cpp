@@ -138,12 +138,12 @@ double elapsed = ( double ) ( clock() - m_ticks ) / ( double ) CLOCKS_PER_SEC;
   {
     m_ticks = clock();
     m_timeval.tv_sec = 0;
-    m_timeval.tv_usec = (timeout * 1000000);
+    m_timeval.tv_usec = (long)(timeout * 1000000);
   }
   else
   {
     m_timeval.tv_sec = 0;
-    m_timeval.tv_usec = ( ( timeout - elapsed ) * 1000000 );
+    m_timeval.tv_usec = (long)((timeout - elapsed) * 1000000);
   }
   return &m_timeval;
 #endif
@@ -329,7 +329,7 @@ void SocketMonitor::buildSet( const Sockets& sockets, fd_set& watchSet )
 {
   Sockets::const_iterator iter;
   for ( iter = sockets.begin(); iter != sockets.end(); ++iter ) {
-    FD_SET( *iter, &watchSet );
+    FD_SET((unsigned int)(*iter), &watchSet);
   }
 }
 }

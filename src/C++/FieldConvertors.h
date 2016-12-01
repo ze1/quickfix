@@ -609,7 +609,7 @@ struct UtcTimeStampConvertor
   }
 
   static UtcTimeStamp convert( const std::string& value,
-                               bool calculateDays = false )
+                               bool /*calculateDays*/ = false )
   throw( FieldConvertError )
   {
     bool haveMilliseconds = false;

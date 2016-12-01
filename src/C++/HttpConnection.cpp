@@ -35,7 +35,7 @@ namespace FIX {
     HttpConnection::HttpConnection(int s)
         : m_socket(s) {
         FD_ZERO(&m_fds);
-        FD_SET(m_socket, &m_fds);
+        FD_SET((unsigned int)m_socket, &m_fds);
     }
 
     bool HttpConnection::send(const std::string& msg) {
@@ -171,7 +171,7 @@ namespace FIX {
     }
 
     void HttpConnection::processRoot
-    (const HttpMessage& request, std::stringstream& h, std::stringstream& b) {
+    (const HttpMessage& request, std::stringstream&, std::stringstream& b) {
         TABLE table(b); table.border(1).cellspacing(2).width(100).text();
 
         {
@@ -643,7 +643,7 @@ namespace FIX {
     }
 
     void HttpConnection::showRow
-    (std::stringstream& s, const std::string& name, const std::string& value, const std::string& url) {
+    (std::stringstream& s, const std::string& name, const std::string& value, const std::string&) {
         {
             TR tr(s); tr.text();
             { TD td(s); td.text(name); }

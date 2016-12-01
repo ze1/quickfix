@@ -261,7 +261,7 @@ static int ssl_rand_choose_num(int l, int h) {
   char buf[50];
 
   srand((unsigned int)time(0));
-  snprintf(buf, sizeof(buf), "%.0f",
+  _snprintf_s(buf, sizeof(buf), "%.0f",
            (((double)(rand() % RAND_MAX) / RAND_MAX) * (h - l)));
   buf[sizeof(buf) - 1] = 0;
   i = atoi(buf) + 1;
@@ -290,7 +290,7 @@ static void ssl_rand_seed(void) {
   /*
   * seed in the current process id (usually just 4 bytes)
   */
-  pid = getpid();
+  pid = _getpid();
   l = sizeof(pid);
   RAND_seed((unsigned char *)&pid, l);
   /*
@@ -303,7 +303,7 @@ static void ssl_rand_seed(void) {
 const char *socket_error(char *tempbuf, int buflen) {
 #ifdef _MSC_VER
   int code = WSAGetLastError();
-  snprintf(tempbuf, buflen, "%s(%d)", WSAErrString(code), code);
+  _snprintf_s(tempbuf, buflen, buflen, "%s(%d)", WSAErrString(code), code);
 #else /* UNIX */
   snprintf(tempbuf, buflen, "%s(errno=%d)", strerror(errno), errno);
 #endif
@@ -594,10 +594,10 @@ char *strCat(const char *a, ...) {
 
   va_start(adummy, a);
 
-  strcpy(cp, a);
+  strcpy_s(cp, len + 1, a);
   cp += strlen(a);
   while ((argp = va_arg(adummy, char *)) != 0) {
-    strcpy(cp, argp);
+    strcpy_s(cp, len + 1, argp);
     cp += strlen(argp);
   }
 

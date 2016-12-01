@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (H:\PRO\quickfix-secure\obj\Debug32\) contains files shared from another project (quickfix.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+LINK : warning LNK4001: no object files specified; libraries used
+LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+H:\PRO\quickfix-secure\bin\Debug32\ambtcc.exe : fatal error LNK1120: 1 unresolved externals

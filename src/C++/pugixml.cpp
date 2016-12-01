@@ -14,7 +14,7 @@
 #ifndef SOURCE_PUGIXML_CPP
 #define SOURCE_PUGIXML_CPP
 
-#include "pugixml.hpp"
+#include "pugixml.h"
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -3669,7 +3669,7 @@ PUGI__NS_BEGIN
 	PUGI__FN bool set_value_convert(char_t*& dest, uintptr_t& header, uintptr_t header_mask, double value)
 	{
 		char buf[128];
-		sprintf(buf, "%g", value);
+		sprintf(buf, "%.9f", value);
 
 		return set_value_buffer(dest, header, header_mask, buf);
 	}

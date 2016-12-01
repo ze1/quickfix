@@ -1,0 +1,44 @@
+﻿  WebServer.cpp
+  Application.cpp
+h:\pro\quickfix-secure\ambtcc\application.cpp(78): error C2039: 'account_signature': is not a member of 'Application'
+  h:\pro\quickfix-secure\ambtcc\application.h(49): note: see declaration of 'Application'
+h:\pro\quickfix-secure\ambtcc\application.cpp(83): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+h:\pro\quickfix-secure\ambtcc\application.cpp(83): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdlib.h(1323): note: see declaration of 'itoa'
+h:\pro\quickfix-secure\ambtcc\application.cpp(126): error C2653: 'FIXBTCC': is not a class or namespace name
+h:\pro\quickfix-secure\ambtcc\application.cpp(126): error C2065: 'AccReqID': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(126): error C2146: syntax error: missing ';' before identifier 'acc_req_id'
+h:\pro\quickfix-secure\ambtcc\application.cpp(126): error C3861: 'acc_req_id': identifier not found
+h:\pro\quickfix-secure\ambtcc\application.cpp(129): error C2653: 'FIXBTCC': is not a class or namespace name
+h:\pro\quickfix-secure\ambtcc\application.cpp(129): error C2065: 'AccountInfoRequest': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(129): error C2146: syntax error: missing ';' before identifier 'message'
+h:\pro\quickfix-secure\ambtcc\application.cpp(129): error C2065: 'acc_req_id': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(129): error C3861: 'message': identifier not found
+h:\pro\quickfix-secure\ambtcc\application.cpp(130): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(130): error C2228: left of '.addGroup' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(130): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(130): error C2065: 'symbolGroup': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(133): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(133): error C2228: left of '.addGroup' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(133): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(134): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(134): error C2228: left of '.addGroup' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(134): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(135): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(135): error C2228: left of '.addGroup' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(135): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(140): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(140): error C2228: left of '.addGroup' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(140): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(142): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(142): error C2228: left of '.getHeader' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(142): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(144): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(144): error C2228: left of '.toXML' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(144): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(145): error C2065: 'message': undeclared identifier
+h:\pro\quickfix-secure\ambtcc\application.cpp(145): error C2228: left of '.toString' must have class/struct/union
+  h:\pro\quickfix-secure\ambtcc\application.cpp(145): note: type is 'unknown-type'
+h:\pro\quickfix-secure\ambtcc\application.cpp(147): error C2065: 'message': undeclared identifier
+  Generating Code...
+h:\pro\quickfix-secure\ambtcc\webserver.cpp(131): error C4716: 'WebServer::get_session': must return a value

@@ -1962,12 +1962,6 @@
     </ClInclude>
     <ClInclude Include="..\config_windows.h" />
     <ClInclude Include="..\stdafx.h" />
-    <ClInclude Include="pugiconfig.hpp">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="pugixml.hpp">
-      <Filter>Headers</Filter>
-    </ClInclude>
     <ClInclude Include="PUGIXML_DOMDocument.h">
       <Filter>Headers</Filter>
     </ClInclude>
@@ -1981,6 +1975,12 @@
       <Filter>Socket\Headers</Filter>
     </ClInclude>
     <ClInclude Include="UtilitySSL.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.h">
       <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>

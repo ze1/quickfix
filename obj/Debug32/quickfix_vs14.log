@@ -1,0 +1,918 @@
+﻿  Acceptor.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  DataDictionary.cpp
+DataDictionary.cpp(255): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(228): note: see declaration of 'attrs'
+DataDictionary.cpp(263): warning C4456: declaration of 'type' hides previous local declaration
+  DataDictionary.cpp(229): note: see declaration of 'type'
+DataDictionary.cpp(275): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(255): note: see declaration of 'attrs'
+DataDictionary.cpp(304): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(228): note: see declaration of 'attrs'
+DataDictionary.cpp(314): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(228): note: see declaration of 'attrs'
+DataDictionary.cpp(339): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(228): note: see declaration of 'attrs'
+DataDictionary.cpp(349): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(228): note: see declaration of 'attrs'
+DataDictionary.cpp(372): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(228): note: see declaration of 'attrs'
+DataDictionary.cpp(388): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(372): note: see declaration of 'attrs'
+DataDictionary.cpp(389): warning C4456: declaration of 'name' hides previous local declaration
+  DataDictionary.cpp(378): note: see declaration of 'name'
+DataDictionary.cpp(404): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(372): note: see declaration of 'attrs'
+DataDictionary.cpp(413): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(372): note: see declaration of 'attrs'
+DataDictionary.cpp(454): warning C4100: 'pDoc': unreferenced formal parameter
+DataDictionary.cpp(485): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(469): note: see declaration of 'attrs'
+DataDictionary.cpp(486): warning C4456: declaration of 'name' hides previous local declaration
+  DataDictionary.cpp(470): note: see declaration of 'name'
+DataDictionary.cpp(505): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(469): note: see declaration of 'attrs'
+DataDictionary.cpp(514): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(469): note: see declaration of 'attrs'
+DataDictionary.cpp(546): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(530): note: see declaration of 'attrs'
+DataDictionary.cpp(563): warning C4456: declaration of 'attrs' hides previous local declaration
+  DataDictionary.cpp(530): note: see declaration of 'attrs'
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  DataDictionaryProvider.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  FieldMap.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  FileLog.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  FileStore.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  Group.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  HttpConnection.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  Initiator.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  Log.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  Message.cpp
+Message.cpp(278): warning C4459: declaration of 'headerOrder' hides global declaration
+  h:\pro\quickfix-secure\src\c++\Message.h(40): note: see declaration of 'FIX::headerOrder'
+Message.cpp(350): warning C4457: declaration of 'field' hides function parameter
+  Message.cpp(336): note: see declaration of 'field'
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  MessageSorters.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(57): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  MessageStore.cpp
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  NullStore.cpp
+NullStore.cpp(41): warning C4100: 'msg': unreferenced formal parameter
+NullStore.cpp(41): warning C4100: 'msgSeqNum': unreferenced formal parameter
+NullStore.cpp(47): warning C4100: 'end': unreferenced formal parameter
+NullStore.cpp(47): warning C4100: 'begin': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  Session.cpp
+Session.cpp(295): warning C4100: 'timeStamp': unreferenced formal parameter
+Session.cpp(319): warning C4100: 'timeStamp': unreferenced formal parameter
+Session.cpp(344): warning C4100: 'timeStamp': unreferenced formal parameter
+Session.cpp(1045): warning C4100: 'sessionID': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  SessionFactory.cpp
+SessionFactory.cpp(206): warning C4100: 'sessionID': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  SocketAcceptor.cpp
+SocketAcceptor.cpp(182): warning C4100: 'server': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  SocketConnection.cpp
+SocketConnection.cpp(41): warning C4389: '==': signed/unsigned mismatch
+SocketConnection.cpp(52): warning C4389: '==': signed/unsigned mismatch
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  SocketInitiator.cpp
+SocketInitiator.cpp(82): warning C4100: 's': unreferenced formal parameter
+SocketInitiator.cpp(166): warning C4100: 'connector': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  ThreadedSSLSocketAcceptor.cpp
+ThreadedSSLSocketAcceptor.cpp(310): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+ThreadedSSLSocketAcceptor.cpp(351): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+ThreadedSSLSocketAcceptor.cpp(474): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+ThreadedSSLSocketAcceptor.cpp(487): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+ThreadedSSLSocketAcceptor.cpp(513): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+ThreadedSSLSocketAcceptor.cpp(525): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+ThreadedSSLSocketAcceptor.cpp(565): warning C4100: 'timeout': unreferenced formal parameter
+ThreadedSSLSocketAcceptor.cpp(650): warning C4456: declaration of 'info' hides previous local declaration
+  ThreadedSSLSocketAcceptor.cpp(614): note: see declaration of 'info'
+ThreadedSSLSocketAcceptor.cpp(898): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(125): note: see declaration of 'strcpy'
+ThreadedSSLSocketAcceptor.cpp(894): warning C4100: 'job': unreferenced formal parameter
+ThreadedSSLSocketAcceptor.cpp(894): warning C4100: 'verify': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(347): warning C4505: '_wreaddir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(522): warning C4505: 'opendir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(592): warning C4505: 'readdir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(675): warning C4505: 'closedir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(702): warning C4505: 'rewinddir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\UtilitySSL.h(124): warning C4505: 'FIX::WSAErrString': unreferenced local function has been removed
+  Generating Code...
+  Compiling...
+  ThreadedSSLSocketConnection.cpp
+ThreadedSSLSocketConnection.cpp(136): warning C4389: '==': signed/unsigned mismatch
+ThreadedSSLSocketConnection.cpp(145): warning C4389: '==': signed/unsigned mismatch
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(347): warning C4505: '_wreaddir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(522): warning C4505: 'opendir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(592): warning C4505: 'readdir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(675): warning C4505: 'closedir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(702): warning C4505: 'rewinddir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\UtilitySSL.h(124): warning C4505: 'FIX::WSAErrString': unreferenced local function has been removed
+  ThreadedSSLSocketInitiator.cpp
+ThreadedSSLSocketInitiator.cpp(180): warning C4100: 's': unreferenced formal parameter
+ThreadedSSLSocketInitiator.cpp(321): warning C4100: 'timeout': unreferenced formal parameter
+ThreadedSSLSocketInitiator.cpp(513): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(125): note: see declaration of 'strcpy'
+ThreadedSSLSocketInitiator.cpp(509): warning C4100: 'job': unreferenced formal parameter
+ThreadedSSLSocketInitiator.cpp(509): warning C4100: 'verify': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(347): warning C4505: '_wreaddir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(522): warning C4505: 'opendir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(592): warning C4505: 'readdir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(675): warning C4505: 'closedir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\dirent_windows.h(702): warning C4505: 'rewinddir': unreferenced local function has been removed
+h:\pro\quickfix-secure\src\c++\UtilitySSL.h(124): warning C4505: 'FIX::WSAErrString': unreferenced local function has been removed
+  ThreadedSocketAcceptor.cpp
+ThreadedSocketAcceptor.cpp(218): warning C4456: declaration of 'info' hides previous local declaration
+  ThreadedSocketAcceptor.cpp(188): note: see declaration of 'info'
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  ThreadedSocketConnection.cpp
+ThreadedSocketConnection.cpp(41): warning C4389: '==': signed/unsigned mismatch
+ThreadedSocketConnection.cpp(54): warning C4389: '==': signed/unsigned mismatch
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  ThreadedSocketInitiator.cpp
+ThreadedSocketInitiator.cpp(75): warning C4100: 's': unreferenced formal parameter
+ThreadedSocketInitiator.cpp(98): warning C4100: 'timeout': unreferenced formal parameter
+h:\pro\quickfix-secure\src\c++\SharedArray.h(136): warning C4189: 'tmpCounter': local variable is initialized but not referenced
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(127): note: while compiling class template member function 'void FIX::shared_array<int>::release(void)'
+  h:\pro\quickfix-secure\src\c++\SharedArray.h(49): note: see reference to function template instantiation 'void FIX::shared_array<int>::release(void)' being compiled
+  h:\pro\quickfix-secure\src\c++\MessageSorters.h(150): note: see reference to class template instantiation 'FIX::shared_array<int>' being compiled
+  Generating Code...
+libcrypto.lib(ebcdic.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+libcrypto.lib(ecp_nistp224.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+libcrypto.lib(ecp_nistp256.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+libcrypto.lib(ecp_nistp521.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+libcrypto.lib(ecp_nistputil.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+libcrypto.lib(rand_egd.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+PostgreSQLStore.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+PostgreSQLLog.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+OdbcStore.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+OdbcLog.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+MySQLStore.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+MySQLLog.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  quickfix_vs14.vcxproj -> H:\PRO\quickfix-secure\lib\Debug32\quickfix.lib
+  H:Acceptor.h
+  H:Application.h
+  H:AtomicCount.h
+  H:config-all.h
+  H:DatabaseConnectionID.h
+  H:DatabaseConnectionPool.h
+  H:DataDictionary.h
+  H:DataDictionaryProvider.h
+  H:Dictionary.h
+  H:dirent_windows.h
+  H:DOMDocument.h
+  H:Event.h
+  H:Exceptions.h
+  H:Field.h
+  H:FieldConvertors.h
+  H:FieldMap.h
+  H:FieldNumbers.h
+  H:Fields.h
+  H:FieldTypes.h
+  H:FileLog.h
+  H:FileStore.h
+  H:FixFieldNumbers.h
+  H:FixFields.h
+  H:FixValues.h
+  H:FlexLexer.h
+  H:Group.h
+  H:HtmlBuilder.h
+  H:HttpConnection.h
+  H:HttpMessage.h
+  H:HttpParser.h
+  H:HttpServer.h
+  H:index.h
+  H:Initiator.h
+  H:Log.h
+  H:Message.h
+  H:MessageCracker.h
+  H:MessageSorters.h
+  H:MessageStore.h
+  H:Mutex.h
+  H:MySQLConnection.h
+  H:MySQLLog.h
+  H:MySQLStore.h
+  H:NullStore.h
+  H:OdbcConnection.h
+  H:OdbcLog.h
+  H:OdbcStore.h
+  H:Parser.h
+  H:PostgreSQLConnection.h
+  H:PostgreSQLLog.h
+  H:PostgreSQLStore.h
+  H:PUGIXML_DOMDocument.h
+  H:Queue.h
+  H:Responder.h
+  H:Session.h
+  H:SessionFactory.h
+  H:SessionID.h
+  H:SessionSettings.h
+  H:SessionState.h
+  H:Settings.h
+  H:SharedArray.h
+  H:SocketAcceptor.h
+  H:SocketConnection.h
+  H:SocketConnector.h
+  H:SocketInitiator.h
+  H:SocketMonitor.h
+  H:SocketServer.h
+  H:strptime.h
+  H:ThreadedSocketAcceptor.h
+  H:ThreadedSocketConnection.h
+  H:ThreadedSocketInitiator.h
+  H:ThreadedSSLSocketAcceptor.h
+  H:ThreadedSSLSocketConnection.h
+  H:ThreadedSSLSocketInitiator.h
+  H:TimeRange.h
+  H:Utility.h
+  H:UtilitySSL.h
+  H:Values.h
+  H:fix40\Advertisement.h
+  H:fix40\Allocation.h
+  H:fix40\AllocationInstructionAck.h
+  H:fix40\DontKnowTrade.h
+  H:fix40\Email.h
+  H:fix40\ExecutionReport.h
+  H:fix40\Heartbeat.h
+  H:fix40\IOI.h
+  H:fix40\ListCancelRequest.h
+  H:fix40\ListExecute.h
+  H:fix40\ListStatus.h
+  H:fix40\ListStatusRequest.h
+  H:fix40\Logon.h
+  H:fix40\Logout.h
+  H:fix40\Message.h
+  H:fix40\MessageCracker.h
+  H:fix40\NewOrderList.h
+  H:fix40\NewOrderSingle.h
+  H:fix40\News.h
+  H:fix40\OrderCancelReject.h
+  H:fix40\OrderCancelReplaceRequest.h
+  H:fix40\OrderCancelRequest.h
+  H:fix40\OrderStatusRequest.h
+  H:fix40\Quote.h
+  H:fix40\QuoteRequest.h
+  H:fix40\Reject.h
+  H:fix40\ResendRequest.h
+  H:fix40\SequenceReset.h
+  H:fix40\TestRequest.h
+  H:fix41\Advertisement.h
+  H:fix41\Allocation.h
+  H:fix41\AllocationInstructionAck.h
+  H:fix41\DontKnowTrade.h
+  H:fix41\Email.h
+  H:fix41\ExecutionReport.h
+  H:fix41\Heartbeat.h
+  H:fix41\IOI.h
+  H:fix41\ListCancelRequest.h
+  H:fix41\ListExecute.h
+  H:fix41\ListStatus.h
+  H:fix41\ListStatusRequest.h
+  H:fix41\Logon.h
+  H:fix41\Logout.h
+  H:fix41\Message.h
+  H:fix41\MessageCracker.h
+  H:fix41\NewOrderList.h
+  H:fix41\NewOrderSingle.h
+  H:fix41\News.h
+  H:fix41\OrderCancelReject.h
+  H:fix41\OrderCancelReplaceRequest.h
+  H:fix41\OrderCancelRequest.h
+  H:fix41\OrderStatusRequest.h
+  H:fix41\Quote.h
+  H:fix41\QuoteRequest.h
+  H:fix41\Reject.h
+  H:fix41\ResendRequest.h
+  H:fix41\SequenceReset.h
+  H:fix41\SettlementInstructions.h
+  H:fix41\TestRequest.h
+  H:fix42\Advertisement.h
+  H:fix42\Allocation.h
+  H:fix42\AllocationInstructionAck.h
+  H:fix42\BidRequest.h
+  H:fix42\BidResponse.h
+  H:fix42\BusinessMessageReject.h
+  H:fix42\DontKnowTrade.h
+  H:fix42\Email.h
+  H:fix42\ExecutionReport.h
+  H:fix42\Heartbeat.h
+  H:fix42\IOI.h
+  H:fix42\ListCancelRequest.h
+  H:fix42\ListExecute.h
+  H:fix42\ListStatus.h
+  H:fix42\ListStatusRequest.h
+  H:fix42\ListStrikePrice.h
+  H:fix42\Logon.h
+  H:fix42\Logout.h
+  H:fix42\MarketDataIncrementalRefresh.h
+  H:fix42\MarketDataRequest.h
+  H:fix42\MarketDataRequestReject.h
+  H:fix42\MarketDataSnapshotFullRefresh.h
+  H:fix42\MassQuote.h
+  H:fix42\Message.h
+  H:fix42\MessageCracker.h
+  H:fix42\NewOrderList.h
+  H:fix42\NewOrderSingle.h
+  H:fix42\News.h
+  H:fix42\OrderCancelReject.h
+  H:fix42\OrderCancelReplaceRequest.h
+  H:fix42\OrderCancelRequest.h
+  H:fix42\OrderStatusRequest.h
+  H:fix42\Quote.h
+  H:fix42\QuoteAcknowledgement.h
+  H:fix42\QuoteCancel.h
+  H:fix42\QuoteRequest.h
+  H:fix42\QuoteStatusRequest.h
+  H:fix42\Reject.h
+  H:fix42\ResendRequest.h
+  H:fix42\SecurityDefinition.h
+  H:fix42\SecurityDefinitionRequest.h
+  H:fix42\SecurityStatus.h
+  H:fix42\SecurityStatusRequest.h
+  H:fix42\SequenceReset.h
+  H:fix42\SettlementInstructions.h
+  H:fix42\TestRequest.h
+  H:fix42\TradingSessionStatus.h
+  H:fix42\TradingSessionStatusRequest.h
+  H:fix43\Advertisement.h
+  H:fix43\Allocation.h
+  H:fix43\AllocationAck.h
+  H:fix43\BidRequest.h
+  H:fix43\BidResponse.h
+  H:fix43\BusinessMessageReject.h
+  H:fix43\CrossOrderCancelReplaceRequest.h
+  H:fix43\CrossOrderCancelRequest.h
+  H:fix43\DerivativeSecurityList.h
+  H:fix43\DerivativeSecurityListRequest.h
+  H:fix43\DontKnowTrade.h
+  H:fix43\Email.h
+  H:fix43\ExecutionReport.h
+  H:fix43\Heartbeat.h
+  H:fix43\IOI.h
+  H:fix43\ListCancelRequest.h
+  H:fix43\ListExecute.h
+  H:fix43\ListStatus.h
+  H:fix43\ListStatusRequest.h
+  H:fix43\ListStrikePrice.h
+  H:fix43\Logon.h
+  H:fix43\Logout.h
+  H:fix43\MarketDataIncrementalRefresh.h
+  H:fix43\MarketDataRequest.h
+  H:fix43\MarketDataRequestReject.h
+  H:fix43\MarketDataSnapshotFullRefresh.h
+  H:fix43\MassQuote.h
+  H:fix43\MassQuoteAcknowledgement.h
+  H:fix43\Message.h
+  H:fix43\MessageCracker.h
+  H:fix43\MultilegOrderCancelReplaceRequest.h
+  H:fix43\NewOrderCross.h
+  H:fix43\NewOrderList.h
+  H:fix43\NewOrderMultileg.h
+  H:fix43\NewOrderSingle.h
+  H:fix43\News.h
+  H:fix43\OrderCancelReject.h
+  H:fix43\OrderCancelReplaceRequest.h
+  H:fix43\OrderCancelRequest.h
+  H:fix43\OrderMassCancelReport.h
+  H:fix43\OrderMassCancelRequest.h
+  H:fix43\OrderMassStatusRequest.h
+  H:fix43\OrderStatusRequest.h
+  H:fix43\Quote.h
+  H:fix43\QuoteCancel.h
+  H:fix43\QuoteRequest.h
+  H:fix43\QuoteRequestReject.h
+  H:fix43\QuoteStatusReport.h
+  H:fix43\QuoteStatusRequest.h
+  H:fix43\RegistrationInstructions.h
+  H:fix43\RegistrationInstructionsResponse.h
+  H:fix43\Reject.h
+  H:fix43\ResendRequest.h
+  H:fix43\RFQRequest.h
+  H:fix43\SecurityDefinition.h
+  H:fix43\SecurityDefinitionRequest.h
+  H:fix43\SecurityList.h
+  H:fix43\SecurityListRequest.h
+  H:fix43\SecurityStatus.h
+  H:fix43\SecurityStatusRequest.h
+  H:fix43\SecurityTypeRequest.h
+  H:fix43\SecurityTypes.h
+  H:fix43\SequenceReset.h
+  H:fix43\SettlementInstructions.h
+  H:fix43\TestRequest.h
+  H:fix43\TradeCaptureReport.h
+  H:fix43\TradeCaptureReportRequest.h
+  H:fix43\TradingSessionStatus.h
+  H:fix43\TradingSessionStatusRequest.h
+  H:fix43\XMLnonFIX.h
+  H:fix44\Advertisement.h
+  H:fix44\AllocationInstruction.h
+  H:fix44\AllocationInstructionAck.h
+  H:fix44\AllocationReport.h
+  H:fix44\AllocationReportAck.h
+  H:fix44\AssignmentReport.h
+  H:fix44\BidRequest.h
+  H:fix44\BidResponse.h
+  H:fix44\BusinessMessageReject.h
+  H:fix44\CollateralAssignment.h
+  H:fix44\CollateralInquiry.h
+  H:fix44\CollateralInquiryAck.h
+  H:fix44\CollateralReport.h
+  H:fix44\CollateralRequest.h
+  H:fix44\CollateralResponse.h
+  H:fix44\Confirmation.h
+  H:fix44\ConfirmationAck.h
+  H:fix44\ConfirmationRequest.h
+  H:fix44\CrossOrderCancelReplaceRequest.h
+  H:fix44\CrossOrderCancelRequest.h
+  H:fix44\DerivativeSecurityList.h
+  H:fix44\DerivativeSecurityListRequest.h
+  H:fix44\DontKnowTrade.h
+  H:fix44\Email.h
+  H:fix44\ExecutionReport.h
+  H:fix44\Heartbeat.h
+  H:fix44\IOI.h
+  H:fix44\ListCancelRequest.h
+  H:fix44\ListExecute.h
+  H:fix44\ListStatus.h
+  H:fix44\ListStatusRequest.h
+  H:fix44\ListStrikePrice.h
+  H:fix44\Logon.h
+  H:fix44\Logout.h
+  H:fix44\MarketDataIncrementalRefresh.h
+  H:fix44\MarketDataRequest.h
+  H:fix44\MarketDataRequestReject.h
+  H:fix44\MarketDataSnapshotFullRefresh.h
+  H:fix44\MassQuote.h
+  H:fix44\MassQuoteAcknowledgement.h
+  H:fix44\Message.h
+  H:fix44\MessageCracker.h
+  H:fix44\MultilegOrderCancelReplace.h
+  H:fix44\NetworkCounterpartySystemStatusRequest.h
+  H:fix44\NetworkCounterpartySystemStatusResponse.h
+  H:fix44\NewOrderCross.h
+  H:fix44\NewOrderList.h
+  H:fix44\NewOrderMultileg.h
+  H:fix44\NewOrderSingle.h
+  H:fix44\News.h
+  H:fix44\OrderCancelReject.h
+  H:fix44\OrderCancelReplaceRequest.h
+  H:fix44\OrderCancelRequest.h
+  H:fix44\OrderMassCancelReport.h
+  H:fix44\OrderMassCancelRequest.h
+  H:fix44\OrderMassStatusRequest.h
+  H:fix44\OrderStatusRequest.h
+  H:fix44\PositionMaintenanceReport.h
+  H:fix44\PositionMaintenanceRequest.h
+  H:fix44\PositionReport.h
+  H:fix44\Quote.h
+  H:fix44\QuoteCancel.h
+  H:fix44\QuoteRequest.h
+  H:fix44\QuoteRequestReject.h
+  H:fix44\QuoteResponse.h
+  H:fix44\QuoteStatusReport.h
+  H:fix44\QuoteStatusRequest.h
+  H:fix44\RegistrationInstructions.h
+  H:fix44\RegistrationInstructionsResponse.h
+  H:fix44\Reject.h
+  H:fix44\RequestForPositions.h
+  H:fix44\RequestForPositionsAck.h
+  H:fix44\ResendRequest.h
+  H:fix44\RFQRequest.h
+  H:fix44\SecurityDefinition.h
+  H:fix44\SecurityDefinitionRequest.h
+  H:fix44\SecurityList.h
+  H:fix44\SecurityListRequest.h
+  H:fix44\SecurityStatus.h
+  H:fix44\SecurityStatusRequest.h
+  H:fix44\SecurityTypeRequest.h
+  H:fix44\SecurityTypes.h
+  H:fix44\SequenceReset.h
+  H:fix44\SettlementInstructionRequest.h
+  H:fix44\SettlementInstructions.h
+  H:fix44\TestRequest.h
+  H:fix44\TradeCaptureReport.h
+  H:fix44\TradeCaptureReportAck.h
+  H:fix44\TradeCaptureReportRequest.h
+  H:fix44\TradeCaptureReportRequestAck.h
+  H:fix44\TradingSessionStatus.h
+  H:fix44\TradingSessionStatusRequest.h
+  H:fix44\UserRequest.h
+  H:fix44\UserResponse.h
+  H:fix44\XMLnonFIX.h
+  H:fix50\AdjustedPositionReport.h
+  H:fix50\Advertisement.h
+  H:fix50\AllocationInstruction.h
+  H:fix50\AllocationInstructionAck.h
+  H:fix50\AllocationInstructionAlert.h
+  H:fix50\AllocationReport.h
+  H:fix50\AllocationReportAck.h
+  H:fix50\AssignmentReport.h
+  H:fix50\BidRequest.h
+  H:fix50\BidResponse.h
+  H:fix50\BusinessMessageReject.h
+  H:fix50\CollateralAssignment.h
+  H:fix50\CollateralInquiry.h
+  H:fix50\CollateralInquiryAck.h
+  H:fix50\CollateralReport.h
+  H:fix50\CollateralRequest.h
+  H:fix50\CollateralResponse.h
+  H:fix50\Confirmation.h
+  H:fix50\ConfirmationAck.h
+  H:fix50\ConfirmationRequest.h
+  H:fix50\ContraryIntentionReport.h
+  H:fix50\CrossOrderCancelReplaceRequest.h
+  H:fix50\CrossOrderCancelRequest.h
+  H:fix50\DerivativeSecurityList.h
+  H:fix50\DerivativeSecurityListRequest.h
+  H:fix50\DontKnowTrade.h
+  H:fix50\Email.h
+  H:fix50\ExecutionAcknowledgement.h
+  H:fix50\ExecutionReport.h
+  H:fix50\IOI.h
+  H:fix50\ListCancelRequest.h
+  H:fix50\ListExecute.h
+  H:fix50\ListStatus.h
+  H:fix50\ListStatusRequest.h
+  H:fix50\ListStrikePrice.h
+  H:fix50\MarketDataIncrementalRefresh.h
+  H:fix50\MarketDataRequest.h
+  H:fix50\MarketDataRequestReject.h
+  H:fix50\MarketDataSnapshotFullRefresh.h
+  H:fix50\MassQuote.h
+  H:fix50\MassQuoteAcknowledgement.h
+  H:fix50\Message.h
+  H:fix50\MessageCracker.h
+  H:fix50\MultilegOrderCancelReplace.h
+  H:fix50\NetworkCounterpartySystemStatusRequest.h
+  H:fix50\NetworkCounterpartySystemStatusResponse.h
+  H:fix50\NewOrderCross.h
+  H:fix50\NewOrderList.h
+  H:fix50\NewOrderMultileg.h
+  H:fix50\NewOrderSingle.h
+  H:fix50\News.h
+  H:fix50\OrderCancelReject.h
+  H:fix50\OrderCancelReplaceRequest.h
+  H:fix50\OrderCancelRequest.h
+  H:fix50\OrderMassCancelReport.h
+  H:fix50\OrderMassCancelRequest.h
+  H:fix50\OrderMassStatusRequest.h
+  H:fix50\OrderStatusRequest.h
+  H:fix50\PositionMaintenanceReport.h
+  H:fix50\PositionMaintenanceRequest.h
+  H:fix50\PositionReport.h
+  H:fix50\Quote.h
+  H:fix50\QuoteCancel.h
+  H:fix50\QuoteRequest.h
+  H:fix50\QuoteRequestReject.h
+  H:fix50\QuoteResponse.h
+  H:fix50\QuoteStatusReport.h
+  H:fix50\QuoteStatusRequest.h
+  H:fix50\RegistrationInstructions.h
+  H:fix50\RegistrationInstructionsResponse.h
+  H:fix50\RequestForPositions.h
+  H:fix50\RequestForPositionsAck.h
+  H:fix50\RFQRequest.h
+  H:fix50\SecurityDefinition.h
+  H:fix50\SecurityDefinitionRequest.h
+  H:fix50\SecurityDefinitionUpdateReport.h
+  H:fix50\SecurityList.h
+  H:fix50\SecurityListRequest.h
+  H:fix50\SecurityListUpdateReport.h
+  H:fix50\SecurityStatus.h
+  H:fix50\SecurityStatusRequest.h
+  H:fix50\SecurityTypeRequest.h
+  H:fix50\SecurityTypes.h
+  H:fix50\SettlementInstructionRequest.h
+  H:fix50\SettlementInstructions.h
+  H:fix50\TradeCaptureReport.h
+  H:fix50\TradeCaptureReportAck.h
+  H:fix50\TradeCaptureReportRequest.h
+  H:fix50\TradeCaptureReportRequestAck.h
+  H:fix50\TradingSessionList.h
+  H:fix50\TradingSessionListRequest.h
+  H:fix50\TradingSessionStatus.h
+  H:fix50\TradingSessionStatusRequest.h
+  H:fix50\UserRequest.h
+  H:fix50\UserResponse.h
+  H:fix50sp1\AdjustedPositionReport.h
+  H:fix50sp1\Advertisement.h
+  H:fix50sp1\AllocationInstruction.h
+  H:fix50sp1\AllocationInstructionAck.h
+  H:fix50sp1\AllocationInstructionAlert.h
+  H:fix50sp1\AllocationReport.h
+  H:fix50sp1\AllocationReportAck.h
+  H:fix50sp1\ApplicationMessageReport.h
+  H:fix50sp1\ApplicationMessageRequest.h
+  H:fix50sp1\ApplicationMessageRequestAck.h
+  H:fix50sp1\AssignmentReport.h
+  H:fix50sp1\BidRequest.h
+  H:fix50sp1\BidResponse.h
+  H:fix50sp1\BusinessMessageReject.h
+  H:fix50sp1\CollateralAssignment.h
+  H:fix50sp1\CollateralInquiry.h
+  H:fix50sp1\CollateralInquiryAck.h
+  H:fix50sp1\CollateralReport.h
+  H:fix50sp1\CollateralRequest.h
+  H:fix50sp1\CollateralResponse.h
+  H:fix50sp1\Confirmation.h
+  H:fix50sp1\ConfirmationAck.h
+  H:fix50sp1\ConfirmationRequest.h
+  H:fix50sp1\ContraryIntentionReport.h
+  H:fix50sp1\CrossOrderCancelReplaceRequest.h
+  H:fix50sp1\CrossOrderCancelRequest.h
+  H:fix50sp1\DerivativeSecurityList.h
+  H:fix50sp1\DerivativeSecurityListRequest.h
+  H:fix50sp1\DerivativeSecurityListUpdateReport.h
+  H:fix50sp1\DontKnowTrade.h
+  H:fix50sp1\Email.h
+  H:fix50sp1\ExecutionAcknowledgement.h
+  H:fix50sp1\ExecutionReport.h
+  H:fix50sp1\IOI.h
+  H:fix50sp1\ListCancelRequest.h
+  H:fix50sp1\ListExecute.h
+  H:fix50sp1\ListStatus.h
+  H:fix50sp1\ListStatusRequest.h
+  H:fix50sp1\ListStrikePrice.h
+  H:fix50sp1\MarketDataIncrementalRefresh.h
+  H:fix50sp1\MarketDataRequest.h
+  H:fix50sp1\MarketDataRequestReject.h
+  H:fix50sp1\MarketDataSnapshotFullRefresh.h
+  H:fix50sp1\MarketDefinition.h
+  H:fix50sp1\MarketDefinitionRequest.h
+  H:fix50sp1\MarketDefinitionUpdateReport.h
+  H:fix50sp1\MassQuote.h
+  H:fix50sp1\MassQuoteAcknowledgement.h
+  H:fix50sp1\Message.h
+  H:fix50sp1\MessageCracker.h
+  H:fix50sp1\MultilegOrderCancelReplace.h
+  H:fix50sp1\NetworkCounterpartySystemStatusRequest.h
+  H:fix50sp1\NetworkCounterpartySystemStatusResponse.h
+  H:fix50sp1\NewOrderCross.h
+  H:fix50sp1\NewOrderList.h
+  H:fix50sp1\NewOrderMultileg.h
+  H:fix50sp1\NewOrderSingle.h
+  H:fix50sp1\News.h
+  H:fix50sp1\OrderCancelReject.h
+  H:fix50sp1\OrderCancelReplaceRequest.h
+  H:fix50sp1\OrderCancelRequest.h
+  H:fix50sp1\OrderMassActionReport.h
+  H:fix50sp1\OrderMassActionRequest.h
+  H:fix50sp1\OrderMassCancelReport.h
+  H:fix50sp1\OrderMassCancelRequest.h
+  H:fix50sp1\OrderMassStatusRequest.h
+  H:fix50sp1\OrderStatusRequest.h
+  H:fix50sp1\PositionMaintenanceReport.h
+  H:fix50sp1\PositionMaintenanceRequest.h
+  H:fix50sp1\PositionReport.h
+  H:fix50sp1\Quote.h
+  H:fix50sp1\QuoteCancel.h
+  H:fix50sp1\QuoteRequest.h
+  H:fix50sp1\QuoteRequestReject.h
+  H:fix50sp1\QuoteResponse.h
+  H:fix50sp1\QuoteStatusReport.h
+  H:fix50sp1\QuoteStatusRequest.h
+  H:fix50sp1\RegistrationInstructions.h
+  H:fix50sp1\RegistrationInstructionsResponse.h
+  H:fix50sp1\RequestForPositions.h
+  H:fix50sp1\RequestForPositionsAck.h
+  H:fix50sp1\RFQRequest.h
+  H:fix50sp1\SecurityDefinition.h
+  H:fix50sp1\SecurityDefinitionRequest.h
+  H:fix50sp1\SecurityDefinitionUpdateReport.h
+  H:fix50sp1\SecurityList.h
+  H:fix50sp1\SecurityListRequest.h
+  H:fix50sp1\SecurityListUpdateReport.h
+  H:fix50sp1\SecurityStatus.h
+  H:fix50sp1\SecurityStatusRequest.h
+  H:fix50sp1\SecurityTypeRequest.h
+  H:fix50sp1\SecurityTypes.h
+  H:fix50sp1\SettlementInstructionRequest.h
+  H:fix50sp1\SettlementInstructions.h
+  H:fix50sp1\SettlementObligationReport.h
+  H:fix50sp1\TradeCaptureReport.h
+  H:fix50sp1\TradeCaptureReportAck.h
+  H:fix50sp1\TradeCaptureReportRequest.h
+  H:fix50sp1\TradeCaptureReportRequestAck.h
+  H:fix50sp1\TradingSessionList.h
+  H:fix50sp1\TradingSessionListRequest.h
+  H:fix50sp1\TradingSessionListUpdateReport.h
+  H:fix50sp1\TradingSessionStatus.h
+  H:fix50sp1\TradingSessionStatusRequest.h
+  H:fix50sp1\UserNotification.h
+  H:fix50sp1\UserRequest.h
+  H:fix50sp1\UserResponse.h
+  H:fix50sp2\AdjustedPositionReport.h
+  H:fix50sp2\Advertisement.h
+  H:fix50sp2\AllocationInstruction.h
+  H:fix50sp2\AllocationInstructionAck.h
+  H:fix50sp2\AllocationInstructionAlert.h
+  H:fix50sp2\AllocationReport.h
+  H:fix50sp2\AllocationReportAck.h
+  H:fix50sp2\ApplicationMessageReport.h
+  H:fix50sp2\ApplicationMessageRequest.h
+  H:fix50sp2\ApplicationMessageRequestAck.h
+  H:fix50sp2\AssignmentReport.h
+  H:fix50sp2\BidRequest.h
+  H:fix50sp2\BidResponse.h
+  H:fix50sp2\BusinessMessageReject.h
+  H:fix50sp2\CollateralAssignment.h
+  H:fix50sp2\CollateralInquiry.h
+  H:fix50sp2\CollateralInquiryAck.h
+  H:fix50sp2\CollateralReport.h
+  H:fix50sp2\CollateralRequest.h
+  H:fix50sp2\CollateralResponse.h
+  H:fix50sp2\Confirmation.h
+  H:fix50sp2\ConfirmationAck.h
+  H:fix50sp2\ConfirmationRequest.h
+  H:fix50sp2\ContraryIntentionReport.h
+  H:fix50sp2\CrossOrderCancelReplaceRequest.h
+  H:fix50sp2\CrossOrderCancelRequest.h
+  H:fix50sp2\DerivativeSecurityList.h
+  H:fix50sp2\DerivativeSecurityListRequest.h
+  H:fix50sp2\DerivativeSecurityListUpdateReport.h
+  H:fix50sp2\DontKnowTrade.h
+  H:fix50sp2\Email.h
+  H:fix50sp2\ExecutionAcknowledgement.h
+  H:fix50sp2\ExecutionReport.h
+  H:fix50sp2\IOI.h
+  H:fix50sp2\ListCancelRequest.h
+  H:fix50sp2\ListExecute.h
+  H:fix50sp2\ListStatus.h
+  H:fix50sp2\ListStatusRequest.h
+  H:fix50sp2\ListStrikePrice.h
+  H:fix50sp2\MarketDataIncrementalRefresh.h
+  H:fix50sp2\MarketDataRequest.h
+  H:fix50sp2\MarketDataRequestReject.h
+  H:fix50sp2\MarketDataSnapshotFullRefresh.h
+  H:fix50sp2\MarketDefinition.h
+  H:fix50sp2\MarketDefinitionRequest.h
+  H:fix50sp2\MarketDefinitionUpdateReport.h
+  H:fix50sp2\MassQuote.h
+  H:fix50sp2\MassQuoteAcknowledgement.h
+  H:fix50sp2\Message.h
+  H:fix50sp2\MessageCracker.h
+  H:fix50sp2\MultilegOrderCancelReplace.h
+  H:fix50sp2\NetworkCounterpartySystemStatusRequest.h
+  H:fix50sp2\NetworkCounterpartySystemStatusResponse.h
+  H:fix50sp2\NewOrderCross.h
+  H:fix50sp2\NewOrderList.h
+  H:fix50sp2\NewOrderMultileg.h
+  H:fix50sp2\NewOrderSingle.h
+  H:fix50sp2\News.h
+  H:fix50sp2\OrderCancelReject.h
+  H:fix50sp2\OrderCancelReplaceRequest.h
+  H:fix50sp2\OrderCancelRequest.h
+  H:fix50sp2\OrderMassActionReport.h
+  H:fix50sp2\OrderMassActionRequest.h
+  H:fix50sp2\OrderMassCancelReport.h
+  H:fix50sp2\OrderMassCancelRequest.h
+  H:fix50sp2\OrderMassStatusRequest.h
+  H:fix50sp2\OrderStatusRequest.h
+  H:fix50sp2\PositionMaintenanceReport.h
+  H:fix50sp2\PositionMaintenanceRequest.h
+  H:fix50sp2\PositionReport.h
+  H:fix50sp2\Quote.h
+  H:fix50sp2\QuoteCancel.h
+  H:fix50sp2\QuoteRequest.h
+  H:fix50sp2\QuoteRequestReject.h
+  H:fix50sp2\QuoteResponse.h
+  H:fix50sp2\QuoteStatusReport.h
+  H:fix50sp2\QuoteStatusRequest.h
+  H:fix50sp2\RegistrationInstructions.h
+  H:fix50sp2\RegistrationInstructionsResponse.h
+  H:fix50sp2\RequestForPositions.h
+  H:fix50sp2\RequestForPositionsAck.h
+  H:fix50sp2\RFQRequest.h
+  H:fix50sp2\SecurityDefinition.h
+  H:fix50sp2\SecurityDefinitionRequest.h
+  H:fix50sp2\SecurityDefinitionUpdateReport.h
+  H:fix50sp2\SecurityList.h
+  H:fix50sp2\SecurityListRequest.h
+  H:fix50sp2\SecurityListUpdateReport.h
+  H:fix50sp2\SecurityStatus.h
+  H:fix50sp2\SecurityStatusRequest.h
+  H:fix50sp2\SecurityTypeRequest.h
+  H:fix50sp2\SecurityTypes.h
+  H:fix50sp2\SettlementInstructionRequest.h
+  H:fix50sp2\SettlementInstructions.h
+  H:fix50sp2\SettlementObligationReport.h
+  H:fix50sp2\StreamAssignmentReport.h
+  H:fix50sp2\StreamAssignmentReportACK.h
+  H:fix50sp2\StreamAssignmentRequest.h
+  H:fix50sp2\TradeCaptureReport.h
+  H:fix50sp2\TradeCaptureReportAck.h
+  H:fix50sp2\TradeCaptureReportRequest.h
+  H:fix50sp2\TradeCaptureReportRequestAck.h
+  H:fix50sp2\TradingSessionList.h
+  H:fix50sp2\TradingSessionListRequest.h
+  H:fix50sp2\TradingSessionListUpdateReport.h
+  H:fix50sp2\TradingSessionStatus.h
+  H:fix50sp2\TradingSessionStatusRequest.h
+  H:fix50sp2\UserNotification.h
+  H:fix50sp2\UserRequest.h
+  H:fix50sp2\UserResponse.h
+  H:fixt11\Heartbeat.h
+  H:fixt11\Logon.h
+  H:fixt11\Logout.h
+  H:fixt11\Message.h
+  H:fixt11\MessageCracker.h
+  H:fixt11\Reject.h
+  H:fixt11\ResendRequest.h
+  H:fixt11\SequenceReset.h
+  H:fixt11\TestRequest.h
+  670 File(s) copied

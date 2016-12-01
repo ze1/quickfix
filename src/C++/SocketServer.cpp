@@ -45,7 +45,7 @@ public:
 : m_sockets( sockets ), m_server( server ), m_strategy( strategy ) {}
 
 private:
-  void onConnect( SocketMonitor&, int socket )
+  void onConnect( SocketMonitor&, int /*socket*/ )
   {
   }
 
@@ -112,7 +112,7 @@ int SocketServer::add( int port, bool reuse, bool noDelay,
     socket_setsockopt( socket, SO_RCVBUF, rcvBufSize );
   m_monitor.addRead( socket );
 
-  SocketInfo info( socket, port, noDelay, sendBufSize, rcvBufSize );
+  SocketInfo info( socket, (short)port, noDelay, sendBufSize, rcvBufSize );
   m_socketToInfo[socket] = info;
   m_portToInfo[port] = info;
   return socket;

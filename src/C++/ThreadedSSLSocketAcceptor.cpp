@@ -471,7 +471,7 @@ X509 *ThreadedSSLSocketAcceptor::readX509(FILE *fp, X509 **x509,
     fseek(fp, 0L, SEEK_SET);
     if ((bioS = BIO_new(BIO_s_fd())) == 0)
       return 0;
-    BIO_set_fd(bioS, fileno(fp), BIO_NOCLOSE);
+    BIO_set_fd(bioS, _fileno(fp), BIO_NOCLOSE);
     if ((bioF = BIO_new(BIO_f_base64())) == 0) {
       BIO_free(bioS);
       return 0;
@@ -484,7 +484,7 @@ X509 *ThreadedSSLSocketAcceptor::readX509(FILE *fp, X509 **x509,
       fseek(fp, 0L, SEEK_SET);
       if ((bioS = BIO_new(BIO_s_fd())) == 0)
         return 0;
-      BIO_set_fd(bioS, fileno(fp), BIO_NOCLOSE);
+      BIO_set_fd(bioS, _fileno(fp), BIO_NOCLOSE);
       rc = d2i_X509_bio(bioS, 0);
       BIO_free(bioS);
     }
@@ -510,7 +510,7 @@ ThreadedSSLSocketAcceptor::readPrivateKey(FILE *fp, EVP_PKEY **key,
     fseek(fp, 0L, SEEK_SET);
     if ((bioS = BIO_new(BIO_s_fd())) == 0)
       return 0;
-    BIO_set_fd(bioS, fileno(fp), BIO_NOCLOSE);
+    BIO_set_fd(bioS, _fileno(fp), BIO_NOCLOSE);
     if ((bioF = BIO_new(BIO_f_base64())) == 0) {
       BIO_free(bioS);
       return 0;
@@ -522,7 +522,7 @@ ThreadedSSLSocketAcceptor::readPrivateKey(FILE *fp, EVP_PKEY **key,
       fseek(fp, 0L, SEEK_SET);
       if ((bioS = BIO_new(BIO_s_fd())) == 0)
         return 0;
-      BIO_set_fd(bioS, fileno(fp), BIO_NOCLOSE);
+      BIO_set_fd(bioS, _fileno(fp), BIO_NOCLOSE);
       rc = d2i_PrivateKey_bio(bioS, 0);
       BIO_free(bioS);
     }
@@ -562,7 +562,7 @@ X509_STORE *ThreadedSSLSocketAcceptor::createX509Store(const char *cpFile,
   return pStore;
 }
 
-bool ThreadedSSLSocketAcceptor::onPoll(double timeout) { return false; }
+bool ThreadedSSLSocketAcceptor::onPoll(double/* timeout*/) { return false; }
 
 void ThreadedSSLSocketAcceptor::onStop() {
   SocketToThread threads;
@@ -891,11 +891,11 @@ int ThreadedSSLSocketAcceptor::newConnection(
 }
 
 int ThreadedSSLSocketAcceptor::passwordHandleCallback(char *buf, size_t bufsize,
-                                                      int verify, void *job) {
+                                                      int/* verify*/, void */*job*/) {
   if (m_password.length() > bufsize)
     return -1;
 
-  std::strcpy(buf, m_password.c_str());
+  strcpy_s(buf, bufsize, m_password.c_str());
   return m_password.length();
 }
 }

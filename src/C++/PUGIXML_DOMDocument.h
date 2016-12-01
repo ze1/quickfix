@@ -24,7 +24,7 @@
 
 #include "DOMDocument.h"
 #include "Exceptions.h"
-#include "pugixml.hpp"
+#include "pugixml.h"
 
 namespace FIX
 {

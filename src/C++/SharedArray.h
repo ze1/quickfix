@@ -131,16 +131,17 @@ namespace FIX
       //free object if reference count has decreased to zero
       if( decrement_reference_count() == 0)
       {
-        T * tmpBuff = m_buffer;
-        atomic_count* tmpCounter = get_counter();
+            T * tmpBuff = m_buffer;
 
-        m_buffer = 0;
-        m_size = 0;
+            atomic_count* tmpCounter = get_counter();
 
-        //explicitly call destructor for the counter object
-        tmpCounter->~atomic_count();
+            m_buffer = 0;
+            m_size = 0;
 
-        delete [] tmpBuff;
+            //explicitly call destructor for the counter object
+            tmpCounter->~atomic_count();
+
+            delete [] tmpBuff;
       }
     }
 
